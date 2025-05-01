@@ -9,7 +9,7 @@ instances = ec2.create_instances(
     MinCount=1,
     MaxCount=1,
     InstanceType='t2.micro',
-    KeyName='your-key-pair-name',     # Replace with your key pair name
+    KeyName='linux',     # Replace with your key pair name
     TagSpecifications=[
         {
             'ResourceType': 'instance',
